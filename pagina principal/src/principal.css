@@ -1,0 +1,13 @@
+#fundo {
+    width: 1440px;
+    height: 781px;
+}
+
+/* Ajuste para ocupar toda a tela e não ficar atrás do navbar */
+#principal {
+    background: url('./assets/ImagePizza.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(100vh - 80px); /* Altura da tela menos o navbar */
+    margin-top: 80px; /* Espaço igual à altura do navbar fixo */
+}
