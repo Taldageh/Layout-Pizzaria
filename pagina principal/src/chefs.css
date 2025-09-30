@@ -1,0 +1,35 @@
+.chef img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chefs-section {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    text-align: flex-start;
+}
+
+.section-header {
+    padding-bottom: 25px;
+}
+
+#chefs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chef {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    width: 50%;
+    text-align: center;
+}
