@@ -16,14 +16,14 @@
     text-align: flex-start;
 }
 
-.section-header {
-    padding-bottom: 25px;
-}
-
 #chefs {
     display: flex;
     justify-content: space-between;
+    gap: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
+
 
 .chef {
     display: flex;
@@ -32,4 +32,10 @@
     margin: 20px;
     width: 50%;
     text-align: center;
+}
+
+.texto-chefs h1 {
+    font-size: 36px;
+    color: #333;
+    
 }
