@@ -3,18 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/index.css">
     <title>Pizza on Fire</title>
 </head>
 <body>
     <nav id="navegador">
      <div id="logo-container">
-        <img src="src/assets/Logo.png" alt="Logo">
-        <h1 id="logo">Hot Pizza</h1>
+        <img src="src/assets/Logo.png" alt="Logo" >
+        <h1 id="logo">Steve Pizza</h1>
     </div>
         <ul class="menu">
-            <li class="imagem_mochila"><a href="#"> <img src="src/assets/image.png"> </a> </li>
-            <li><a href="#">Sobre nós</a></li>
+            <li class="imagem_mochila">
+                <a href="#" onclick="abrirModal(); return false;">
+                    <img src="src/assets/image.png" alt="Abrir modal">
+                </a>
+            </li>
+            
+            <div id="minhaModal" class="modal" style="display:none;">
+                <div class="modal-conteudo">
+                    <span class="fechar" onclick="fecharModal()">&times;</span>
+                    <h3>Seus pedidos!</h3>
+                </div>
+            </div>
+
             <li><a href="#">Sobre nós</a></li>
             <li><a href="#">Eventos</a></li>
             <li><a href="#">Menu</a></li>
@@ -22,6 +36,7 @@
             <li><button id="login-btn">Login</button></li>
         </ul>
     </nav>
+
     <div id="fundo">
         <div id="principal">
             <div class="texto">
@@ -32,37 +47,33 @@
         </div>
     </div>
 
-    <div class="chefs-section">
-                    <div class="texto-chefs">
-                        <h3>Os melhores chefs</h1>
-                        <h1>O melhor sabor das pizzaria.</p><br>
-                    </div>
-                <div>
-                    <div id="chefs">
-                            <div class="chef">
-                                <img src="src/assets/chef1.jpg" alt="Chef 1">
-                                <h2>Chef Maria<br></h2>
-                                <p>Especialista em pizzas clássicas italianas, trazendo o verdadeiro sabor da Itália para sua mesa.<br></p>
-                            </div>
-                        
-                        <div>
-                            <div class="chef">
-                                <img src="src/assets/chef2.jpg" alt="Chef 2">
-                                <h2>Chef Cesar<br></h2>
-                                <p>Conhecido por suas criações inovadoras, combinando sabores únicos para uma experiência gastronômica inesquecível.<br></p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="chef">
-                                <img src="src/assets/chef3.jpg" alt="Chef 3">
-                                <h2>Chef Mario<br></h2>
-                                <p>Com uma paixão por ingredientes frescos e locais, suas pizzas são uma celebração da culinária sustentável.<br></p>
-                            </div>
-                    
-                        </div>
-                    </div>
-                </div>
+   <div class="chefs-section">
+    <div class="texto-chefs">
+        <h3>Master chefs</h3>
+        <h1>O melhor sabor das pizzarias.</h1>
+    </div>
+
+    <div id="chefs">
+        <div class="chef">
+            <img src="src/assets/chef1.jpg" class="imgChef" alt="Chef 1">
+            <h2>Chef Maria</h2>
+            <p>Especialista em pizzas clássicas italianas, trazendo o verdadeiro sabor da Itália para sua mesa.</p>
         </div>
+
+        <div class="chef">
+            <img src="src/assets/chef2.jpg" class="imgChef" alt="Chef 2">
+            <h2>Chef Luigi</h2>
+            <p>Conhecido por suas criações inovadoras, combinando sabores únicos para uma experiência gastronômica inesquecível.</p>
+        </div>
+
+        <div class="chef">
+            <img src="src/assets/chef3.jpg" class="imgChef" alt="Chef 3">
+            <h2>Chef Mario</h2>
+            <p>Com uma paixão por ingredientes frescos e locais, suas pizzas são uma celebração da culinária sustentável.</p>
+        </div>
+    </div>
+</div>
+
 
   <script src="src/script.js"></script>
 </body>

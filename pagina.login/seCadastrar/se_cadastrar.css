@@ -119,3 +119,24 @@ body {
 .register-link a:hover {
     text-decoration: underline;
 }
+
+.Finalizar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color:#333;
+    font-weight: 600px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+}
+
+.Finalizar:hover {
+    background-color: transparent;
+    border: 2px solid rgba(26, 192, 92, 0.411);
+    color: white;
+    transition: 0.5s;
+}

@@ -20,7 +20,7 @@
     position: absolute;
     left: 0;
     top: 0;
-     width: 100vw;
+    width: 99.20vw;
     height: calc(100vh - 80px); 
     color: white;
     /*margin-top: 80px;
@@ -41,9 +41,8 @@
     /* Deixa o texto mais aparente e do tamanho da imagem, sem quebrar os lados */
     background-color: #000000cc; /* Fundo preto com transparência */
     border-radius: 40px;
-    padding: 30px 16px;
+    padding: 28px 16px;
     box-shadow: 0 0 30px 8px rgba(0,0,0,0.6);
-    width: 95%;
     height: 93%;
     margin: 0;
     display: flex;
@@ -77,4 +76,9 @@
 .texto button:hover {
     background-color: #e24242cc;
     transform: scale(1.10);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+      font-style: normal;
 }
