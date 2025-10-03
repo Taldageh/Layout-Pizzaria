@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/nav.css">
+    <title>Menu</title>
+</head>
+<body>
+ <nav id="navegador">
+     <div id="logo-container">
+        <img src="src/assets/Logo.png" alt="Logo" >
+        <h1 id="logo">Steve Pizza</h1>
+    </div>
+        <ul class="menu">
+            <li class="imagem_mochila">
+                <a href="#" onclick="abrirModal(); return false;">
+                    <img src="src/assets/image.png" alt="Abrir modal">
+                </a>
+            </li>
+            
+            <div id="minhaModal" class="modal" style="display:none;">
+                <div class="modal-conteudo">
+                    <span class="fechar" onclick="fecharModal()">&times;</span>
+                    <h3>Seus pedidos!</h3>
+                </div>
+            </div>
+
+            <li><a href="/sobre.nos/index.html">Sobre nós</a></li>
+            <li><a href="/pagina.eventos/index.html">Eventos</a></li>
+            <li><a href="/pagina.menu/index.html">Menu</a></li>
+            <li><a href="/pagina.Contato/index.html">Contato</a></li>
+            <li><button id="login-btn">Login</button></li>
+        </ul>
+    </nav>
+</body>
+<script src="src/script.js"></script>
+</html>
