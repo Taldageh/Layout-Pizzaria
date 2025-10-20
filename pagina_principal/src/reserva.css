@@ -17,7 +17,7 @@
 }
 /* Estilo do botão de envio */
 .reserva button {       
-  background-color: #F54748;
+  background-color: #000000;
   color: white;
   border: none;
   border-radius: 35px;
@@ -31,4 +31,19 @@
   background-color: #e45959;
   transform: scale(1.05);
   animation-delay: 0.2s;
+}
+
+.Vermelho {
+  background-color: #800f0f;
+  color: white;
+  border-radius: 0%;
+    object-fit: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.Vermelho h2 {
+  color: black;
 }
