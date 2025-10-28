@@ -62,7 +62,7 @@
 }
 
 .texto button {
-    background-color: #F54748;
+    background-color: #962222a9;
     color: white;
     border: none;
     border-radius: 30px;
@@ -74,7 +74,7 @@
 }   
 
 .texto button:hover {
-    background-color: #e24242cc;
+    background-color: #f52323cc;
     transform: scale(1.10);
 }
 

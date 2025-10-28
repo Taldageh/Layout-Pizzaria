@@ -4,9 +4,9 @@ document.getElementById('form').addEventListener('submit', (event) => {
    const email = document.getElementById('email').value.trim();
    const password = document.getElementById('password').value;
    const confirmPassword = document.getElementById('confirmPassword').value;
-   const cpf = document.getElementById('cpf').value.trim();
+   const usuario = document.getElementById('usuario').value.trim();
 
-   if (!email || !password || !confirmPassword || !cpf) {
+   if (!email || !password || !confirmPassword || !usuario) {
        alert('Por favor, preencha todos os campos.');
        return;
    } 
@@ -16,17 +16,6 @@ document.getElementById('form').addEventListener('submit', (event) => {
        return;
    }
 
-   const cpfLimpo = cpf.replace(/\D/g, '');
-   if (cpfLimpo.length !== 11) {
-      alert('CPF deve conter exatamente 11 números.');
-      return;
-   }
-   for (let i = 0; i < 10; i++) {
-      if (cpfLimpo === String(i).repeat(11)) {
-         alert('CPF inválido.');
-         return;
-      }
-   }
 
    const emailValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
    if (!emailValido.test(email)) {
