@@ -52,18 +52,4 @@
     color: black;
 }
 
-.menu-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-    padding: 55px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    color: #535353;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-}
+

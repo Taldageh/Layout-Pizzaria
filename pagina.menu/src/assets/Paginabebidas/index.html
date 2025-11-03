@@ -7,19 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/index.css">
+    <link rel="stylesheet" href="src/index.css"">
     <title>Menu</title>
 </head>
 <body>
     <nav id="navegador">
      <div id="logo-container">
-        <img src="src/assets/Logo.png" alt="Logo" >
+        <img src="/pagina.menu/src/assets/navBarImage/Logo.png" alt="Logo" >
         <h1 id="logo">Steve Pizza</h1>
     </div>
         <ul class="menu">
             <li class="imagem_mochila">
                 <a href="#" onclick="abrirModal(); return false;">
-                    <img src="src/assets/Bag.png" alt="Abrir modal">
+                    <img src="/pagina.menu/src/assets/navBarImage/Bag.png" alt="Abrir modal">
                 </a>
             </li>
             
@@ -41,48 +41,68 @@
         <h1>Menu de Pizzas</h1>
         <p>Aqui você encontra as melhores pizzas da cidade!</p>
     </div>
+
+       <div class="nav-pizza">
+        <ul class="bolinha">
+            <li>
+                <div class="item-ativo">
+                    <img src="/pagina.menu/src/assets/icons/IconPizza.png" alt="" class="imagemPesquisa">
+                    <a href="/pagina.menu/index.html" class="TituloMenu">Pizza</a></div>
+            </li>
+            <li>
+                <div class="item-ativo">
+                    <img src="/pagina.menu/src/assets/icons/Iconbebidas.png" alt="" class="imagemPesquisa">
+                    <a href="/pagina.menu/src/assets/Paginabebidas/index.html" class="TituloMenu">Bebidas</a></div>
+            </li>
+            <li>
+                <div class="item-ativo">
+                    <img src="/pagina.menu/src/assets/icons/IconSobremesa.png" alt="" class="imagemPesquisa">
+                    <a href="/pagina.menu/src/assets/PaginaSobremesas/index.html" class="TituloMenu">Sobremesas</a></div>
+            </li>
+        </ul>
+    </div>
     
     <section class="pizza-gallery">
         <div class="pizza">
-            <img src="src/assets/pizzas/Americana.png" alt="Pizza Americana">
-            <h2>Americana</h2>
-            <p>Molho de tomate, queijo, pepperoni e azeitonas.</p>
-            <span class="price">R$ 34,90</span>
+            <img src="src/assets/Agua.png" alt="Agua">
+            <h2>Agua</h2>
+            <p>Água mineral sem gás.</p>
+            <span class="price">R$ 4,90</span>
             <button class="add-to-cart">Adicionar ao Carrinho</button>
         </div>
         <div class="pizza">
-            <img src="src/assets/pizzas/Vegana.png" alt="Pizza Vegana">
-            <h2>Vegana</h2>
-            <p>Molho de tomate, queijo vegano, cogumelos e pimentões.</p>
-            <span class="price">R$ 30,90</span>
+            <img src="src/assets/Coca.png" alt="Coca-Cola">
+            <h2>Coca-Cola</h2>
+            <p>Refrigerante sabor cola.</p>
+            <span class="price">R$ 5,90</span>
             <button class="add-to-cart">Adicionar ao Carrinho</button>
         </div>
         <div class="pizza">
-            <img src="src/assets/pizzas/Italiana.png" alt="Pizza Italiana">
-            <h2>Italiana</h2>
-            <p>Molho de tomate, queijo, presunto, cogumelos e azeitonas.</p>
-            <span class="price">R$ 32,90</span>
+            <img src="src/assets/guarana.png" alt="Guaraná">
+            <h2>Guaraná</h2>
+            <p>Refrigerante sabor guaraná.</p>
+            <span class="price">R$ 5,90</span>
             <button class="add-to-cart">Adicionar ao Carrinho</button>
         </div>
         <div class="pizza">
-            <img src="src/assets/pizzas/ModaDaCasa.png" alt="Pizza Moda da Casa">
-            <h2>Moda da Casa</h2>
-            <p>Molho de tomate, queijo, presunto, ovos e ervilhas.</p>
-            <span class="price">R$ 33,90</span>
+            <img src="src/assets/Pepsi.png" alt="Pepsi">
+            <h2>Pepsi</h2>
+            <p>Refrigerante sabor cola.</p>
+            <span class="price">R$ 5,90</span>
             <button class="add-to-cart">Adicionar ao Carrinho</button>
         </div>
         <div class="pizza">
-            <img src="src/assets/pizzas/Queijo.png" alt="Pizza Queijo">
-            <h2>Queijo</h2>
-            <p>Molho de tomate, queijo e orégano.</p>
-            <span class="price">R$ 28,90</span>
+            <img src="src/assets/suco.png" alt="Suco">
+            <h2>Suco</h2>
+            <p>Suco natural de laranja.</p>
+            <span class="price">R$ 7,90</span>
             <button class="add-to-cart">Adicionar ao Carrinho</button>
         </div>
         <div class="pizza">
-            <img src="src/assets/pizzas/Sausa.png" alt="Pizza Sausa">
-            <h2>Sausa</h2>
-            <p>Molho de tomate, queijo, linguiça e azeitonas.</p>
-            <span class="price">R$ 36,90</span>
+            <img src="src/assets/agua de coco.jpg" alt="Água de Coco">
+            <h2>Água de Coco</h2>
+            <p>Água de coco natural.</p>
+            <span class="price">R$ 7,90</span>
             <button class="add-to-cart">Adicionar ao Carrinho</button>
         </div>
     </section>
